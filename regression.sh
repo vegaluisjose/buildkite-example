@@ -26,5 +26,6 @@ echo -e "Number of failed tests:$test_fail"
 source /tools/Xilinx/Vivado/2020.1/settings64.sh
 
 vivado -version
+vivado -version
 
 test $test_fail -eq 0
