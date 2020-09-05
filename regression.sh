@@ -15,7 +15,7 @@ test_function(){
    fi
 }
 
-test_function "aaa" "e"
+test_function "aaa" "a"
 test_function "aaa" "a"
 
 echo -ne "\033[01;0m"
