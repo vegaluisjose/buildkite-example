@@ -23,11 +23,6 @@ echo -ne "\033[01;0m"
 echo -e "Number of tests:$test_counter"
 echo -e "Number of failed tests:$test_fail"
 
-source /tools/Xilinx/Vivado/2020.1/settings64.sh
-
-vivado -version
-vivado -version
-
 docker run --rm hello-world
 
 test $test_fail -eq 0
