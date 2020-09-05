@@ -17,6 +17,7 @@ test_function(){
 
 test_function "aaa" "a"
 test_function "aaa" "a"
+test_function "aaa" "a"
 
 echo -ne "\033[01;0m"
 echo -e "Number of tests:$test_counter"
