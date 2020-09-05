@@ -1,3 +1,6 @@
 steps:
   - label: "Example"
-    command: "regression.sh"
+    command: |
+      echo "foo bar"
+      source regression.sh
+    timeout_in_minutes: 60
