@@ -28,4 +28,6 @@ source /tools/Xilinx/Vivado/2020.1/settings64.sh
 vivado -version
 vivado -version
 
+docker run --rm hello-world
+
 test $test_fail -eq 0
