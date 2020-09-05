@@ -23,4 +23,6 @@ echo -ne "\033[01;0m"
 echo -e "Number of tests:$test_counter"
 echo -e "Number of failed tests:$test_fail"
 
+docker images
+
 test $test_fail -eq 0
